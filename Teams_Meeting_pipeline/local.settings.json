@@ -1,0 +1,19 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "YOUR_STORAGE_CONNECTION_STRING",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "STORAGE_CONNECTION_STRING": "YOUR_STORAGE_CONNECTION_STRING",
+    "QUEUE_NAME": "transcripts-queue",
+    "NOTIFICATION_CLIENT_STATE": "mySecretState123",
+    "AZURE_OPENAI_ENDPOINT": "https://YOUR_RESOURCE.openai.azure.com/",
+    "AZURE_OPENAI_DEPLOYMENT": "gpt-4o",
+    "SHAREPOINT_SITE_ID": "YOUR_SITE_ID",
+    "SHAREPOINT_TEMPLATE_FILE_ID": "YOUR_TEMPLATE_FILE_ID",
+    "SHAREPOINT_OUTPUT_FOLDER": "ProcessedMeetings"
+  }
+}
+
+// NOTE: No TENANT_ID, CLIENT_ID, CLIENT_SECRET, or AZURE_OPENAI_KEY needed.
+// In Azure: Managed Identity handles auth automatically.
+// Locally: run `az login` once — DefaultAzureCredential uses your Azure CLI session.

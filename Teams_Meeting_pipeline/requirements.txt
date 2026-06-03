@@ -1,0 +1,6 @@
+azure-functions
+azure-storage-queue
+azure-identity
+requests
+python-docx
+openai
