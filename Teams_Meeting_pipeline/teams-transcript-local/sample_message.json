@@ -1,0 +1,18 @@
+{
+  "value": [
+    {
+      "changeType": "created",
+      "resource": "communications/onlineMeetings('MSox...meetingId')/transcripts('abc-123')",
+      "resourceData": {
+        "id": "abc-123",
+        "meetingId": "MSox...meetingId",
+        "joinWebUrl": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_xyz"
+      },
+      "joinWebUrl": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_xyz",
+      "meetingId": "MSox...meetingId",
+      "meetingDuration": "PT45M",
+      "meetingDate": "2026-06-05T14:00:00Z",
+      "transcriptContentUrl": "https://graph.microsoft.com/v1.0/.../transcripts/abc-123/content"
+    }
+  ]
+}

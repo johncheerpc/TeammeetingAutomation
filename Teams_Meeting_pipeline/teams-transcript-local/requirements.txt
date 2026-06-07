@@ -1,0 +1,3 @@
+office365-rest-python-client
+openai
+python-dotenv
